@@ -1,7 +1,7 @@
 # defaults file for hd-idle
 
 # start hd-idle automatically?
-START_HD_IDLE=false
+START_HD_IDLE=true
 
 # hd-idle command line options
 # Options are:
@@ -33,4 +33,4 @@ START_HD_IDLE=false
 #  -d                      Debug mode. It will print debugging info to
 #                          stdout/stderr (/var/log/syslog if started as with systemctl)
 #  -h                      Print usage information.
-#HD_IDLE_OPTS="-i 180 -l /var/log/hd-idle.log"
+HD_IDLE_OPTS="-i 600 -l /var/log/hd-idle.log"

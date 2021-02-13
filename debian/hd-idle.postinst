@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ $(systemctl is-enabled hd-idle) != 'enabled' ];  then
+  systemctl enable hd-idle
+fi
+systemctl daemon-reload
+systemctl restart hd-idle
